@@ -12,7 +12,6 @@ import org.openqa.selenium.support.PageFactory;
 
  //updated the script
 
-
 public class BackendRetailerDropAuctionPage {
 
     @FindBy(xpath = "//a[@class='btn btn-secondary buttons-csv buttons-html5']") private WebElement scheduleDropBtn;
