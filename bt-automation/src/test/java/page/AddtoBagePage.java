@@ -13,7 +13,7 @@ import org.openqa.selenium.support.ui.Select;
 *
 */
 public class AddtoBagePage {
-	
+	//Just commented
 	@FindBy(xpath="//button[@class='multi_btnCustom__iFH_4']") 
 	private WebElement ATBPopUpBtn;
 	@FindBy(xpath="//div[@class = 'multi_productNameHeading__qQgAB ']")
