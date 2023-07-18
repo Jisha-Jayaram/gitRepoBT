@@ -12,6 +12,7 @@ import org.testng.Assert;
 *
 */
 public class BtHomepage {
+	//updated script
 
 	@FindBy(xpath="//*[@id=\"top-header\"]//span[@class='Header_userNameClass__nl8jn']") 
 	private WebElement My_Account;
