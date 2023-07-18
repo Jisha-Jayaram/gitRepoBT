@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="Stage(failed)">
+    <parameter name="property" value="stage.properties"/>
+    <classes>
+      <class name="script.ValidSignUp">
+        <methods>
+          <include name="closeApp"/>
+          <include name="publishReport"/>
+          <include name="createReport"/>
+          <include name="openApp"/>
+          <include name="testValidSignUp"/>
+        </methods>
+      </class> <!-- script.ValidSignUp -->
+    </classes>
+  </test> <!-- Stage(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel = "tests" name="Suite">
+
+ <test name="Stage">
+
+ <parameter name="property" value="stage.properties"/>
+    <packages>
+    	<package name="script"></package>
+    </packages>
+  </test> 
+
+
+  <!-- <test name="UAT"> 
+  <parameter name="property" value="uat.properties"/> 
+   <packages>  
+	<package name="script"></package> 
+   </packages> 
+ </test> -->
+</suite> 
